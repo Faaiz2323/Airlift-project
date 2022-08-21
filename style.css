@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --width: width: 274px;
+    --height: height: 106px;
+    --border: border-radius: 35px;
+    --position: position: absolute;
+}
+
+header {
+    background-color: #fff;
+    height: 4rem;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.logo {
+    width: 5.6rem;
+    margin: 5px 20px 5px 5px;
+}
+.main-logo {
+    display: inline-block;
+}
+
+.pointer {
+    background: none;
+    width: 4.5vh;
+    vertical-align: super;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.text {
+    display: inline-block;
+    position: relative;
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+
+.address {
+    color: #0583AB;
+    cursor: pointer;
+}
+
+.symbol {
+    display: inline;
+    position: absolute;
+    margin-top: 3vh;
+}
+
+.drop-down {
+    width: 4vh;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: inline-block;
+    margin-left: 3em;
+    position: absolute;
+    margin-top: 3vh;
+}
+
+input {
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    padding-right: 357px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    border: 1px solid #B7B7B7;
+}
+
+.search-icon {
+    position: absolute;
+    display: inline;
+    margin-left: 33.5em;
+    margin-top: 1.5rem;
+    width: 5vh;
+}
+
+.symbol2 {
+    width: 3.5vh;
+    cursor: pointer;
+}
+
+.text-2 {
+    position: absolute;
+    display: inline-block;
+    width: 0px;
+}
+
+.login {
+    margin-left: 37rem;
+    margin-top: 1.5em;
+    cursor: pointer;
+    width: 55em;
+}
+
+.drop2 {
+    margin-left: 51.5rem;
+    position: absolute;
+    width: 5px;
+    display: inline;
+    margin-top: 4.5vh;
+}
+
+.another-symbol {
+    width: 4vh;
+    cursor: pointer;
+}
+
+.cart-icon {
+    position: absolute;
+    display: inline;
+    margin-left: 55em;
+    margin-top: 1.3em;
+    width: 0;
+}
+
+.symbol3 {
+    width: 5.5vh;
+    cursor: pointer;
+}
+
+.cart-text {
+    position: absolute;
+    display: inline;
+    margin-left: 57.5em;
+    margin-top: 1.5em;
+    width: 0px;
+    cursor: pointer;
+}
+.cart {
+    color: #F5001D;
+    width: 5em;
+    cursor: pointer;
+}
+
+.image-section {
+    position: absolute;
+    margin-left: 7em;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.image-6 {
+    width: 70em;
+}
+
+main {
+    background-color: #fff;
+    height: 44vh;
+    margin-top: 32em;
+    margin-left: 110px;
+    margin-right: 120px;
+}
+.heading {
+    position: absolute;
+    margin-top: 32pc;
+}
+
+.sections {
+    position: absolute;
+}
+
+.section-heading {
+    margin-left: 25pc;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.box {
+    background: #E5ECEE;
+    width: 274px;
+    height: 106px;
+    margin-left: 55px;
+    border-radius: 35px;
+    position: absolute;
+    margin-top: 105px;
+}
+
+.bold-text {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.grocery-image {
+    position: absolute;
+    margin-top: 7.5em;
+    margin-left: 14.5em;
+}
+
+.grocery {
+    width: 85px;
+}
+
+.side-font {
+    position: absolute;
+    margin-top: 11.5em;
+    margin-left: 5em;
+}
+
+.side-text {
+    color: #008A1E;
+    cursor: pointer;
+}
+
+.slide-arrow-image {
+    position: absolute;
+    margin-top: 11.5em;
+    margin-left: 9em;
+}
+
+.slide-arrow {
+    width: 17px;
+    color: #008A1E;
+    cursor: pointer;
+}
+
+.box2 {
+    width: var(--width);
+}
+
+.pharmacy {
+    width: 95px;
+    position: absolute;
+    margin-left: 213px;
+}
