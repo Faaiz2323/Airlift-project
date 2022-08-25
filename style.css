@@ -163,8 +163,9 @@ input {
 }
 
 main {
+    position: relative;
     background-color: #fff;
-    height: 40pc;
+    height: 42pc;
     margin-top: 32em;
     margin-left: 110px;
     margin-right: 120px;
@@ -225,8 +226,8 @@ main {
 
 .slide-arrow-image {
     position: absolute;
-    margin-top: 11.2em;
-    margin-left: 8.5em;
+    margin-top: 11.4pc;
+    margin-left: 8.8em;
 }
 
 .slide-arrow {
@@ -265,8 +266,8 @@ main {
 
 .slide-arrow-image-2 {
     position: absolute;
-    margin-top: 11.2em;
-    margin-left: 30.9em;
+    margin-top: 11.4pc;
+    margin-left: 500.1px;
     cursor: pointer;
 }
 
@@ -302,8 +303,8 @@ main {
 
 .slide-arrow-image-3 {
     position: absolute;
-    margin-left: 54.0em;
-    margin-top: 11.2pc;
+    margin-left: 54.3em;
+    margin-top: 11.4pc;
     cursor: pointer;
 }
 
@@ -322,7 +323,7 @@ main {
     background: #fff;
     position: absolute;
     width: 200px;
-    height: 290px;
+    height: 305px;
     margin-left: 25px;
     margin-top: 335px;
     border: 1px solid gray;
@@ -366,7 +367,7 @@ main {
 .product-discription {
     position: absolute;
     margin-top: 10px;
-    width: 100px;
+    width: 200px;
 }
 
 .weight {
@@ -378,6 +379,63 @@ main {
 .btn {
     position: absolute;
     margin-top: 75px;
+    width: 155px;
+    padding: 5px 30px;
+    margin-left: 10px;
+    background: #fff;
+    color: #F50000;
+    border-color: #F50000;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.child-2 {
+    background: #fff;
+    position: absolute;
+    width: 200px;
+    height: 305px;
+    margin-left: 255px;
+    margin-top: 335px;
+    border: 1px solid gray;
+}
+
+.product-image-2 {
+    width: 115px;
+    margin-left: 40px;
+}
+
+.product-discription-2 {
+    position: absolute;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.btn-ml-2 {
+    position: absolute;
+    margin-top: 38px;
+    width: 155px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background: #fff;
+    color: #0583AB;
+    border-color: #0583AB;
+    border: 1px solid;
+    cursor: pointer;
+    text-align: left;
+}
+
+.product-drop-down {
+    color: #0583AB;
+    position: absolute;
+    margin-top: 45px;
+    width: 25px;
+    margin-left: 135px;
+    cursor: pointer;
+}
+
+.btn-2 {
+    position: absolute;
+    margin-top: 73px;
     width: 155px;
     padding: 5px 30px;
     margin-left: 10px;
