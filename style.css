@@ -23,6 +23,10 @@ body {
     background-color: lightgray;
 }
 
+.container {
+    position: relative;
+}
+
 .logo {
     width: 5.6rem;
     margin: 5px 20px 5px 5px;
@@ -160,7 +164,7 @@ input {
 
 main {
     background-color: #fff;
-    height: 44vh;
+    height: 40pc;
     margin-top: 32em;
     margin-left: 110px;
     margin-right: 120px;
@@ -221,8 +225,8 @@ main {
 
 .slide-arrow-image {
     position: absolute;
-    margin-top: 11.5em;
-    margin-left: 9em;
+    margin-top: 11.2em;
+    margin-left: 8.5em;
 }
 
 .slide-arrow {
@@ -256,12 +260,14 @@ main {
 
 .side-text-2 {
     color: #DD5306;
+    cursor: pointer;
 }
 
 .slide-arrow-image-2 {
     position: absolute;
-    margin-top: 11.5em;
-    margin-left: 31.5em;
+    margin-top: 11.2em;
+    margin-left: 30.9em;
+    cursor: pointer;
 }
 
 .box3 {
@@ -296,10 +302,88 @@ main {
 
 .slide-arrow-image-3 {
     position: absolute;
-    margin-left: 54.5em;
-    margin-top: 11.5pc;
+    margin-left: 54.0em;
+    margin-top: 11.2pc;
+    cursor: pointer;
 }
 
 .side-text-3 {
     color: #F536CB;
+    cursor: pointer;
+}
+
+.item-header {
+    position: absolute;
+    margin-top: 17pc;
+    margin-left: 15px;
+}
+
+.child {
+    background: #fff;
+    position: absolute;
+    width: 200px;
+    height: 290px;
+    margin-left: 25px;
+    margin-top: 335px;
+    border: 1px solid gray;
+}
+
+.product-image {
+    width: 130px;
+    margin-left: 30px;
+}
+
+.money {
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.discount{
+    background: #FED5DB;
+    width: 60px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 1px;
+    border-radius: 35px;
+    border: 1px solid #F50000;
+    position: absolute;
+}
+
+.dis-img {
+    width: 15px;
+    margin-top: 4px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.dis-currency {
+    font-size: 0.8em;
+    margin-left: 25px;
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.product-discription {
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.weight {
+    position: absolute;
+    margin-top: 40px;
+    color: #0583AB;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 75px;
+    width: 155px;
+    padding: 5px 30px;
+    margin-left: 10px;
+    background: #fff;
+    color: #F50000;
+    border-color: #F50000;
+    border: 1px solid;
+    cursor: pointer;
 }
