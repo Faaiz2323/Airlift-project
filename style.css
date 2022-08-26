@@ -83,13 +83,27 @@ input {
     align-items: center;
     font-size: 2vh;
     border: 1px solid #B7B7B7;
+    transition: all 0.3s;
 }
+
+
+input:hover {
+    
+    opacity: 50%;
+    border: 1px solid #0583AB;
+}
+
+input:focus {
+    outline: none;
+}
+
+
 
 .search-icon {
     position: absolute;
     display: inline;
-    margin-left: 33.5em;
-    margin-top: 1.5rem;
+    margin-left: 33.8pc;
+    margin-top: 1.6rem;
     width: 5vh;
 }
 
